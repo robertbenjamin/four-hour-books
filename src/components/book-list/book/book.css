@@ -1,0 +1,7 @@
+.book {
+  max-width: 150px;
+}
+
+.book-info, .book-image {
+  width: 100%;
+}

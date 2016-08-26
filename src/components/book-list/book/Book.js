@@ -1,12 +1,12 @@
 import React from 'react';
+import './book.css';
 
 const Book = (props) => {
 
   return (
     <div className="book">
-      <p>{props.title}</p>
-      <p>{props.author}</p>
-      <p>{props.imageUrl}</p>
+      <img className="book-image" src={props.imageUrl} alt="Book cover" />
+      <p className="book-info">{props.title} - {props.author}</p>
     </div>
   )
 }

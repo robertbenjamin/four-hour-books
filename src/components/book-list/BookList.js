@@ -10,9 +10,10 @@ class BookList extends Component {
     var books = bookData.map(function(book) {
       return (
         <Book
+          key={`${book.title}.${book.author}`}
+          imageUrl={book.img}
           title={book.title}
           author={book.author} 
-          imageUrl={book.img}
         />
       );
     });
