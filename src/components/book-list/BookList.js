@@ -7,15 +7,13 @@ import Book from './book/Book';
 
 class BookList extends Component {
   render() {
-    var books = bookData.map(function(book) {
-      return (
-        <Book
-          key={`${book.title}.${book.author}`}
-          imageUrl={book.img}
-          title={book.title}
-          author={book.author} 
-        />
-      );
+    var books = bookData.map((book) => {
+      return <Book
+        key={`${book.title}.${book.author}`}
+        imageUrl={book.img}
+        title={book.title}
+        author={book.author} 
+      />
     });
 
     return (

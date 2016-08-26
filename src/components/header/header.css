@@ -1,0 +1,20 @@
+header {
+  height: 35px;
+  padding: 15px;
+  background-color: #ff8c42;
+}
+
+header h1 {
+  margin: 0;
+  line-height: 35px;
+  font-weight: 400;
+  color: white;
+}
+
+/*
+4e598c
+ffffff
+f9c784
+fcaf58
+ff8c42
+*/

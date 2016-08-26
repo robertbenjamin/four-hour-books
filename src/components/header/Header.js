@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1>Four Hour Books</h1>
+        <h1 className="title">Four Hour Books</h1>
       </header>
     );
   }

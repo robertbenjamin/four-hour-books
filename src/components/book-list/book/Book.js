@@ -2,7 +2,6 @@ import React from 'react';
 import './book.css';
 
 const Book = (props) => {
-
   return (
     <div className="book">
       <img className="book-image" src={props.imageUrl} alt="Book cover" />
