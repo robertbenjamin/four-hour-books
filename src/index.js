@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
 
+import Header from './components/header/Header';
+import BookList from './components/book-list/BookList';
+
 ReactDOM.render(
-  <App />,
+  <div className="app">
+    <Header />
+    <BookList />
+  </div>,
   document.querySelector('.root')
 );

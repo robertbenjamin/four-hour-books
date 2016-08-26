@@ -1,14 +1,12 @@
 header {
   height: 35px;
-  padding: 15px;
-  background-color: #ff8c42;
+  padding: 15px 15px 0 15px;
 }
 
 header h1 {
   margin: 0;
   line-height: 35px;
   font-weight: 400;
-  color: white;
 }
 
 /*
