@@ -6,7 +6,13 @@ const Book = (props) => {
   return (
     <div className="book">
       <img className="book-image" src={props.imageUrl} alt="Book cover" />
-      <p className="book-info">{props.title} - {props.author}</p>
+      <div className="book-info">
+        {props.title}
+        <br />
+        —
+        <br />
+        {props.author}
+      </div>
     </div>
   )
 }
